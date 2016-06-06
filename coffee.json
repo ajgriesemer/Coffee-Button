@@ -1,0 +1,11 @@
+{
+	"event": "coffee",
+	"url": "https://hooks.slack.com/services/<your>/<connection>/<here>",
+	"requestType": "POST",
+	"json": {
+		"username": "Coffee Bot",
+		"icon_emoji": ":coffee:",
+		"text": "{{SPARK_EVENT_VALUE}}"
+	},
+	"mydevices": "true"
+}
